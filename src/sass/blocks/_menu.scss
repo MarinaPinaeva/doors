@@ -1,0 +1,19 @@
+.menu {
+    padding: 20px;
+    background-color: #e0dfdd;
+    &__blocks {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    &__link {
+        color: #282828;
+        font-size: 15px;
+        font-weight: 300;
+        cursor: pointer;
+    }
+    a {
+        text-decoration: none;
+        background-color: transparent;
+    }
+}
