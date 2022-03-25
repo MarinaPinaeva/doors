@@ -22,6 +22,11 @@
             font-size: 14px;
         }
     }
+    .catalog {
+        &__content {
+            padding: 0 10px;
+        }
+    }
 }
 
 @media (max-width: 991px) {
@@ -47,6 +52,11 @@
         }
         &__link {
             font-size: 12px;
+        }
+    }
+    .catalog {
+        &__title {
+            font-size: 28px;
         }
     }
 }
@@ -86,6 +96,15 @@
             text-align: center;
         }
     }
+    .catalog {
+        &__title {
+            font-size: 26px;
+        }
+        &__content {
+            justify-content: center;
+            padding: unset;
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -123,6 +142,11 @@
         }
         &__link {
             font-size: 12px;
+        }
+    }
+    .catalog {
+        &__title {
+            font-size: 23px;
         }
     }
 }
