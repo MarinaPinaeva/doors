@@ -17,6 +17,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: scroll;
 }
 
 .container {
@@ -28,3 +29,5 @@
 @import 'blocks/menu';
 @import 'blocks/catalog';
 @import 'blocks/footer';
+
+@import 'blocks/media';
