@@ -1,6 +1,6 @@
 .menu {
     padding: 20px;
-    background-color: #e0dfdd;
+    background-color: #c2b6ab;
     &__blocks {
         display: flex;
         justify-content: space-between;
@@ -9,7 +9,7 @@
     &__link {
         color: #282828;
         font-size: 15px;
-        font-weight: 300;
+        font-family: 'LighthausRegular';
         cursor: pointer;
     }
     a {

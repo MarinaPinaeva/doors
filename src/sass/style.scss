@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@font-face { 
+    font-family: "LighthausRegular";
+    src: url("../fonts/LighthausRegular.eot") format("eot"),
+    url("../fonts/LighthausRegular.woff") format("woff"),
+    url("../fonts/LighthausRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+
 @import 'base/variables';
 @import 'base/mixins';
 
 * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif, 'LighthausRegular';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
