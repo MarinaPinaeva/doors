@@ -16,14 +16,20 @@
 		const map = new google.maps.Map(element, options);
     }; */
 
-/* 
-let map;
 
-function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 56.8732083911975, lng: 53.20651090579342 },
-    zoom: 8,
+/* function initMap() {
+  const position = { lat: 56.8733, lng: 53.2065};
+
+  let map = new google.maps.Map(document.getElementById("map"), {
+    center: position,
+    zoom: 17,
   });
+
+  let marker = new google.maps.Marker({
+    map: map,
+    position: position,
+    title: 'Двери'
+  })
 } */
 
 $(document).ready(function() {
