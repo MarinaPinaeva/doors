@@ -26,6 +26,15 @@
         &__content {
             padding: 0 10px;
         }
+        &-item {
+            width: 290px;
+            &__img {
+                height: 315px;
+            }
+        }
+        &__descr {
+            margin: 0 10px;
+        }
     }
 }
 
@@ -59,6 +68,16 @@
             font-size: 28px;
         }
     }
+    .footer {
+        &__info {
+            width: 440px;
+            height: 295px;
+            padding: 45px 65px 45px 65px;
+        }
+    }
+    .pageup {
+        right: 35px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -70,13 +89,9 @@
         &__logo {
             width: 170px;
         }
-        &__phone {
-            font-size: 16px;
-        }
         &__button {
-            width: 130px;
-            font-size: 11px;
             height: 30px;
+            width: 145px;
         }
     }
     .menu {
@@ -104,6 +119,37 @@
             justify-content: center;
             padding: unset;
         }
+        &__descr {
+            font-size: 15px;
+        }
+        &-item {
+            margin-bottom: 40px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 400px;
+            height: 275px;
+        }
+        &__addr {
+            margin-bottom: 33px;
+            font-size: 18px;
+            line-height: 18px;
+        }
+        &__phone {
+            font-size: 18px;
+            line-height: 18px;
+            margin-bottom: 35px;
+        }
+        &__social-item {
+            width: 45px;
+            height: 45px;
+            border: 1px solid #f0f0f0;
+        }
+    }
+    .pageup {
+        right: 30px;
+        bottom: 35px;
     }
 }
 
@@ -148,5 +194,44 @@
         &__title {
             font-size: 23px;
         }
+        &__content {
+            padding: 0 10px;
+        }
+        &__descr {
+            font-size: 12px;
+            line-height: 15px;
+        }
+    }
+    .footer {
+        &__info {
+            padding: 35px;
+            width: 280px;
+            height: 250px;
+        }
+        &__addr {
+            margin-bottom: 30px;
+            font-size: 15px;
+            line-height: 15px;
+        }
+        &__phone {
+            font-size: 15px;
+            line-height: 15px;
+            margin-bottom: 30px;
+        }
+        &__social {
+            &-item {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+    .vk , .email {
+        height: 30px;
+    }
+    .pageup {
+        width: 35px;
+        height: 35px;
+        right: 20px;
+        bottom: 30px;
     }
 }
