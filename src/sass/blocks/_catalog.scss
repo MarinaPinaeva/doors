@@ -16,13 +16,30 @@
         margin: 25px auto 0 auto;
         background-color: #0d0d0d;
     }
+    a {
+        text-decoration: none;
+    }
+    &__button {
+        display: block;
+        background-color: #c2b6ab;
+        border: none;
+        color: #2b2b2b;
+        font-family: 'LighthausRegular';
+        text-transform: uppercase;
+        margin: 0 auto;
+        border-radius: 5px;
+        width: 160px;
+        height: 35px;
+        font-size: 13px;
+        cursor: pointer;
+    }
     &__descr { 
         text-align: center;
         font-family: 'Roboto';
         font-size: 16px;
         font-weight: 100;
-        /* border: 1px solid #f0f0f0; */
         padding: 20px 20px 26px 20px;
+        margin: 30px 0 0 0;
         overflow: hidden;
         background-color: #e0dfdd;
         box-shadow: 10px 10px 10px -5px rgb(240 240 240 / 60%);
