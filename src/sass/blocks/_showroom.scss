@@ -1,0 +1,19 @@
+.showroom {
+    padding-bottom: 100px;
+    background-color: #7d7d7b;
+    .divider {
+        width: 90px;
+        height: 1px;
+        margin: 25px auto 0 auto;
+        background-color: #0d0d0d;
+    }
+    &__video {
+        display: block;
+        margin: 40px auto 0 auto;
+        text-align: center;
+        iframe {
+            width: 960px;
+            height: 515px;
+        }
+    }
+}
