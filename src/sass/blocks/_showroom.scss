@@ -5,7 +5,16 @@
         width: 90px;
         height: 1px;
         margin: 25px auto 0 auto;
-        background-color: #0d0d0d;
+        background-color: #f0f0f0;
+    }
+    &__title {
+        color: #f0f0f0;
+        font-size: 30px;
+        font-family: 'LighthausRegular';
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 80px;
     }
     &__video {
         display: block;

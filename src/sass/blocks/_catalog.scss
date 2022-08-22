@@ -1,8 +1,8 @@
 .catalog {
-    padding-bottom: 10px;
+    padding-bottom: 12px;
     background-color: #7d7d7b;
     &__title {
-        color: #0d0d0d;
+        color: #f0f0f0;
         font-size: 30px;
         font-family: 'LighthausRegular';
         font-weight: 400;
@@ -14,7 +14,7 @@
         width: 90px;
         height: 1px;
         margin: 25px auto 0 auto;
-        background-color: #0d0d0d;
+        background-color: #f0f0f0;
     }
     a {
         text-decoration: none;
