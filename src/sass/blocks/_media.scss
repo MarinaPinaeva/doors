@@ -32,9 +32,23 @@
                 height: 315px;
             }
         }
+        &__button {
+            margin-bottom: 20px;
+        }
         &__descr {
             margin: 0 10px;
         }
+    }
+    .coor {
+        &__content {
+            padding: 0 10px;
+        }
+        &-item {
+            width: 290px;
+            &__img {
+                height: 315px;
+            }
+        } 
     }
     .feature {
         &__item {
@@ -81,8 +95,13 @@
             font-size: 28px;
         }
     }
+    .coor {
+        &__titleHidden {
+            font-size: 28px;
+        }
+    }
     .feature {
-        &__title {
+        &__titleHidden {
             font-size: 28px;
         }
         &__item {
@@ -105,7 +124,7 @@
         }
     }
     .showroom {
-        &__title {
+        &__titleHidden {
             font-size: 28px;
         }
         &__video {
@@ -151,7 +170,7 @@
         &__blocks {
             display: grid;
             grid-template-columns: repeat(2 , 260px);
-            grid-template-rows: repeat(2, 40px);
+            grid-template-rows: repeat(2, 30px);
             grid-auto-rows: 20px;
             row-gap: 10px;
             justify-content: center;
@@ -165,12 +184,12 @@
     }
     .slider {
         &__wrapper {
-            padding: 0 30px;
+            padding: 0 15px;
         }
         &__item {
             img {
-                width: 465px;
-                height: 465px;
+                width: 525px;
+                height: 525px;
             }
         }
     }
@@ -189,8 +208,20 @@
             margin-bottom: 40px;
         }
     }
+    .coor {
+        &__titleHidden {
+            font-size: 26px;
+        }
+        &__content {
+            justify-content: center;
+            padding: unset;
+        }
+        &-item {
+            margin-bottom: 40px;
+        }
+    }
     .feature {
-        &__title {
+        &__titleHidden {
             font-size: 26px;
             padding-top: 30px;
         }
@@ -279,10 +310,9 @@
         }
         &__blocks {
             display: grid;
-            grid-template-columns: 290px;
-            grid-auto-rows: 20px;
-            row-gap: 10px;
-            justify-content: center;
+            grid-template-columns: 310px;
+            grid-template-rows: repeat(4, 30px);
+            row-gap: 5px;
             text-align: center;
             &_home {
                 grid-template-rows: repeat(2,20px);
@@ -293,20 +323,20 @@
         }
     }
     .sale {
-        padding-bottom: 1px;
-        &__title {
+        padding-bottom: 2px;
+        &__titleHidden {
             font-size: 19px;
         }
     }
     .slider {
-        padding: 70px 0 42px 0;
+        padding: 70px 0 44px 0;
         &__wrapper {
             padding: 0 10px;
         }
         &__item {
             img {
-                width: 290px;
-                height: 290px;
+                width: 310px;
+                height: 310px;
             }
         }
     }
@@ -322,14 +352,31 @@
             line-height: 15px;
         }
     }
+    .coor {
+        padding-bottom: 1px;
+        &__titleHidden {
+            font-size: 23px;
+            padding-top: 40px;
+        }
+        &__content {
+            padding: 0 10px;
+        }
+        &-item {
+            &__descr {
+                font-size: 12px;
+            }
+        }
+    }
     .feature {
-        margin-bottom: -35px;
-        &__title {
+        &__titleHidden {
             font-size: 23px;
         }
         &__item {
-            width: 290px;
-            padding: 10px 10px 17px 10px;
+            width: 305px;
+            padding: 10px 0 17px 0;
+            &_subtitle {
+                font-size: 16px;
+            }
             &_wrapper {
                 &-icon {
                     img {
@@ -339,6 +386,7 @@
                 }
                 &-descr {
                     font-size: 10px;
+                    margin: 10px 0 0 10px;
                 }
             }
         }
@@ -346,12 +394,13 @@
     }
     .showroom {
         padding-bottom: 70px;
-        &__title {
+        &__titleHidden {
             font-size: 23px;
+            padding-top: 40px;
         }
         &__video {
             iframe {
-                width: 290px;
+                width: 305px;
                 height: 230px;
             }
         }
