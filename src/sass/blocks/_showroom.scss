@@ -25,4 +25,15 @@
             height: 515px;
         }
     }
+    &__star {
+        display: block;
+        margin: 0 auto;
+        transform: translateY(70px);
+        color: #f0f0f0;
+        font-size: 15px;
+        font-family: 'LighthausRegular';
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+    }
 }
